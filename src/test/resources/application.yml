@@ -1,0 +1,5 @@
+spring.config.activate.on-profile: test
+jwt:
+  secret-key: com.jisu.auth.jwtmodule.application-2024.secret_key.test.test
+  #30 days
+  token-expired-time-ms: 2592000000
